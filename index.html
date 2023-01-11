@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de Filtros Múltiplos usando JS</title>
+    <meta name=”description”
+        content="Seleção de múltiplos filtros usando Javascript, CSS e HTML5. Mostra o conteúdo conforme é feita a 
+        seleção dos itens de filtro. #css #javascript #html5 #frontend #desenvolvimento" />
+    <link rel="stylesheet" href="css/style-filter.css">
+    <link rel="stylesheet" href="css/fonts.css">
+</head>
+
+<body>
+
+    <section class="filter-select">
+        <h1 class="title-filter">Seleção de Filtros Múltiplos</h1>
+        <div class="container container-filter">
+            <div class="box-filter">
+                <span class="filter todos active" data-filter="filter-all">Todos</span>
+                <span class="filter" data-filter="filter-blue">Azul</span>
+                <span class="filter" data-filter="filter-green">Verde</span>
+                <span class="filter" data-filter="filter-orange">Laranja</span>
+            </div>
+
+            <div class="container-conteudo">
+                <article class="box-conteudo blue" data-filter="filter-blue">
+                    <h2 class="title-contents">azul</h2>
+                </article>
+
+                <article class="box-conteudo green" data-filter="filter-green">
+                    <h2 class="title-contents">verde</h2>
+                </article>
+
+                <article class="box-conteudo orange" data-filter="filter-orange">
+                    <h2 class="title-contents">laranja</h2>
+                </article>
+
+                <article class="box-conteudo blue" data-filter="filter-blue">
+                    <h2 class="title-contents">azul</h2>
+                </article>
+
+                <article class="box-conteudo blue" data-filter="filter-blue">
+                    <h2 class="title-contents">azul</h2>
+                </article>
+
+                <article class="box-conteudo green" data-filter="filter-green">
+                    <h2 class="title-contents">verde</h2>
+                </article>
+
+                <article class="box-conteudo orange" data-filter="filter-orange">
+                    <h2 class="title-contents">laranja</h2>
+                </article>
+
+                <article class="box-conteudo green" data-filter="filter-green">
+                    <h2 class="title-contents">verde</h2>
+                </article>
+
+                <article class="box-conteudo orange" data-filter="filter-orange">
+                    <h2 class="title-contents">laranja</h2>
+                </article>
+
+                <article class="box-conteudo blue" data-filter="filter-blue">
+                    <h2 class="title-contents">azul</h2>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="js/filter.js"></script>
+</body>
+
+</html>

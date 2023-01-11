@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.filter-select {
+    padding: 50px 0;
+    background-color: #f5f3f3;
+    height: max-content;
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.title-filter {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 32px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.box-filter {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.filter {
+    border: 1px solid #000000;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.filter:hover {
+    border: 1px solid #fcb7f8;
+    background-color: #fcb7f8;
+    cursor: pointer;
+}
+
+.filter.active {
+    border: 1px solid #f02c8e;
+    background-color: #f02c8e;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.container-conteudo {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.box-conteudo {
+    width: 100%;
+    max-width: 342px;
+    height: 200px;  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+.title-contents {
+    font-family: 'Montserrat';
+    font-size: 28px;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.blue {
+    background-color: #0011ff;
+    color: #ffffff;
+}
+
+.green {
+    background-color: #05bd58;
+    color: #ffffff;
+}
+
+.orange {
+    background-color: #ff5e00;
+    color: #ffffff;
+}
+
+.show {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    .title-filter {
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 50px;
+        text-align: center;
+        padding: 0 16px;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0 16px;
+        gap: 25px;
+    }
+
+    .filter-select {
+        gap: 25px;
+    }
+
+    .container-conteudo {
+        justify-content: center;
+    }
+
+    .box-conteudo {
+        max-width: 360px;
+    }
+
+    .box-filter {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
