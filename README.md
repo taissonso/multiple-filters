@@ -6,7 +6,7 @@ Como o nome do projeto diz, se trata de uma seleção de uma ou mais opções mo
 
 Resumindo foi feito uma definição dos filtros e dos conteúdos usando <a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes" target="_blank">data attributes</a> para identificar a qual tipo cada um se relacionava, assim o conteúdo mostrado seria relacionado ao filtro selecionado e também para evitar o uso de muitas classes ou até mesmo para que não ocorra o risco de termos uma classe com mesmo nome em outra parte do projeto.
 
-Como pode-se selecionar um filtro e também desmarcar o mesmo, o tratamento foi feito que exibira todos os conteúdos caso nenhum seja selecionado e marcando o filtro "Todos" para deixar em destaque. Os filtros marcados ficam selecionados com outra cor para dar destaque. E claro que pode ser mostrado um, dois ou quantas opções estiverem disponíveis.
+Como pode-se selecionar um filtro e também desmarcar o mesmo, o tratamento foi feito que mostrará todos os conteúdos caso nenhum filtro seja selecionado e marcando o filtro "Todos" para deixar em destaque. Os filtros marcados ficam selecionados com outra cor para dar destaque. E claro que pode ser mostrado um, dois ou quantas opções estiverem disponíveis.
 
 Claro que isso foi feito com uma abordagem estática, mas que pode ser facilmente adaptada para uma versão dinâmica.
 
